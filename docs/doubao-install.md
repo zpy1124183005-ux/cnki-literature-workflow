@@ -1,10 +1,12 @@
-# 在豆包工作中安装和使用
+# 知远庐：在豆包工作中安装和使用
 
 适用：豆包电脑版的“工作任务”／豆包工作。包格式已按 `SKILL.md` 入口要求整理；尚未在豆包客户端实际安装及完成知网采集验证。
 
 ## 下载
 
-[直接下载技能 ZIP](https://github.com/zpy1124183005-ux/cnki-literature-workflow/releases/latest/download/cnki-literature-workflow.skill.zip)
+[直接下载技能 ZIP](https://github.com/zpy1124183005-ux/zhiyuan-lu/releases/latest/download/cnki-literature-workflow.skill.zip)
+
+展示名为“知远庐 · CNKI 文献工作流”；技能内部标识继续使用 `cnki-literature-workflow`。
 
 选择这个发布附件，ZIP 根目录有 `SKILL.md` 和配套脚本。GitHub 仓库的“Code → Download ZIP”会多包一层仓库目录，若使用该方式，应先解压并选择含 `SKILL.md` 的技能目录。
 
@@ -12,8 +14,8 @@
 
 可把下面这段话发给朋友，让她复制到豆包工作：
 
-> 请下载这个知网题录技能包：
-> https://github.com/zpy1124183005-ux/cnki-literature-workflow/releases/latest/download/cnki-literature-workflow.skill.zip
+> 请下载“知远庐 · CNKI 文献工作流”技能包：
+> https://github.com/zpy1124183005-ux/zhiyuan-lu/releases/latest/download/cnki-literature-workflow.skill.zip
 > 将它作为 cnki-literature-workflow 技能导入，并读取 SKILL.md。若当前版本不支持通过对话直接安装，请将 ZIP 下载到本机，告诉我在哪里选择“上传技能”，不要仅阅读网页后声称已安装。安装后先检查浏览器操作、文件写入和 Node.js 20 或以上版本是否可用，再用包内虚构示例验证离线整理。先不检索知网，告诉我真实执行结果和缺少的能力。
 
 这是给豆包执行的请求，不代表任意版本都能通过链接自动完成安装。完成与否以技能列表出现该技能及实际示例执行结果为准。

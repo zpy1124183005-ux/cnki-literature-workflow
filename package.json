@@ -1,8 +1,8 @@
 {
   "name": "cnki-literature-workflow",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "private": true,
-  "description": "知网文献题录采集、记录编号去重和来源筛选工作流",
+  "description": "知远庐：从 CNKI 检索到可复核文献清单的工作流，覆盖采集、去重、筛选与导出。",
   "type": "module",
   "engines": { "node": ">=20" },
   "scripts": {

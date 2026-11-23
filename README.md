@@ -1,4 +1,10 @@
-# 知网文献题录采集工作流
+# 知远庐 · CNKI 文献工作流
+
+> 宁静致远，知网寻踪。
+>
+> 从真实检索实践中整理而来，把零散题录编连成一份可复核的文献清单。
+
+Zhiyuan Lu — a reproducible CNKI literature workflow for collecting, deduplicating, filtering, and exporting reviewable bibliographies.
 
 从真实的“乡村治理共同体”检索实践整理而来：在浏览器中检索和筛选，用 JavaScript 读取结果列表，检查分页与记录数量，最后按知网记录编号去重、导出阅读清单。
 
@@ -6,9 +12,11 @@
 
 ## 下载为 Skill，在豆包工作中使用
 
-**[直接下载技能 ZIP](https://github.com/zpy1124183005-ux/cnki-literature-workflow/releases/latest/download/cnki-literature-workflow.skill.zip)** · [豆包安装步骤和可复制的指令](docs/doubao-install.md)
+**[直接下载技能 ZIP](https://github.com/zpy1124183005-ux/zhiyuan-lu/releases/latest/download/cnki-literature-workflow.skill.zip)** · [豆包安装步骤和可复制的指令](docs/doubao-install.md)
 
-v1.1.0 增加标准 [`SKILL.md`](SKILL.md) 入口及单独发布包，ZIP 根目录直接包含该文件。让朋友下载 ZIP，在豆包工作的技能管理页选择“上传技能”，导入后选中 `cnki-literature-workflow`。也可将安装说明里的下载指令发给豆包协助操作，实际是否支持对话直接安装以其工具和客户端版本为准。
+技能包包含标准 [`SKILL.md`](SKILL.md) 入口，ZIP 根目录直接包含该文件。让朋友下载 ZIP，在豆包工作的技能管理页选择“上传技能”，导入后选中 `cnki-literature-workflow`。也可将安装说明里的下载指令发给豆包协助操作，实际是否支持对话直接安装以其工具和客户端版本为准。
+
+项目展示名为“知远庐”，仓库名为 `zhiyuan-lu`；技能标识与下载附件名继续使用 `cnki-literature-workflow`，方便已安装的用户沿用。
 
 这是供支持 Skill 的宿主读取的工作方法包：采集需要浏览器操作能力，随包离线脚本需要 Node.js 20 或以上；不会自动获得你的浏览器登录态。已验证技能格式和打包后的离线脚本，尚未在豆包客户端实测安装及知网采集。
 
@@ -44,8 +52,8 @@ flowchart TD
 需要 Node.js 20 或以上版本；离线工具没有第三方依赖。
 
 ```powershell
-git clone https://github.com/zpy1124183005-ux/cnki-literature-workflow.git
-cd cnki-literature-workflow
+git clone https://github.com/zpy1124183005-ux/zhiyuan-lu.git
+cd zhiyuan-lu
 npm test
 npm run demo
 ```
