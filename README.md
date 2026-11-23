@@ -4,6 +4,14 @@
 
 这是一套有人工检查环节的工作流，附浏览器采集模板和可独立运行的离线整理工具。浏览器选择器来自 **2026-11-06** 的实际页面，后续页面结构变化时需要调整。
 
+## 下载为 Skill，在豆包工作中使用
+
+**[直接下载技能 ZIP](https://github.com/zpy1124183005-ux/cnki-literature-workflow/releases/latest/download/cnki-literature-workflow.skill.zip)** · [豆包安装步骤和可复制的指令](docs/doubao-install.md)
+
+v1.1.0 增加标准 [`SKILL.md`](SKILL.md) 入口及单独发布包，ZIP 根目录直接包含该文件。让朋友下载 ZIP，在豆包工作的技能管理页选择“上传技能”，导入后选中 `cnki-literature-workflow`。也可将安装说明里的下载指令发给豆包协助操作，实际是否支持对话直接安装以其工具和客户端版本为准。
+
+这是供支持 Skill 的宿主读取的工作方法包：采集需要浏览器操作能力，随包离线脚本需要 Node.js 20 或以上；不会自动获得你的浏览器登录态。已验证技能格式和打包后的离线脚本，尚未在豆包客户端实测安装及知网采集。
+
 ## 工作流
 
 ```mermaid
@@ -88,6 +96,8 @@ node scripts/export-results.mjs --input data/raw.json --out outputs/my-search
 ## 目录
 
 ```text
+SKILL.md                          技能入口
+docs/doubao-install.md             豆包安装说明与首次任务示例
 browser/collect-stage.js           浏览器采集与断点模板
 src/records.mjs                    去重、分类和计数逻辑
 scripts/export-results.mjs         离线 CSV / JSON 导出入口
