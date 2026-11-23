@@ -1,0 +1,12 @@
+{
+  "name": "cnki-literature-workflow",
+  "version": "1.0.0",
+  "private": true,
+  "description": "知网文献题录采集、记录编号去重和来源筛选工作流",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node scripts/export-results.mjs --input examples/raw.example.json --out outputs/demo"
+  }
+}

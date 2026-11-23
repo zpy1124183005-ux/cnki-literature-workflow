@@ -1,0 +1,14 @@
+node_modules/
+data/
+outputs/
+tmp/
+.env
+.env.*
+*.log
+*.xlsx
+*.pdf
+*.png
+*.cookies*
+*storage-state*.json
+.DS_Store
+Thumbs.db

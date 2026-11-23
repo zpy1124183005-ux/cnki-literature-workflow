@@ -1,0 +1,40 @@
+{
+  "query": "乡村治理共同体",
+  "field": "主题",
+  "scope": "学术期刊",
+  "note": "全部题名、作者、期刊、编号均为虚构演示数据",
+  "createdAt": "2026-11-23T00:00:00Z",
+  "unionFilterEvidence": { "countText": "共找到 4 条结果" },
+  "stages": {
+    "all": {
+      "expectedCount": 6,
+      "pages": [{ "page": "1/2", "rows": [
+        { "filename": "DEMO_A", "title": "乡村治理共同体的示例研究", "authors": ["示例作者甲"], "journal": "示例期刊甲", "date": "2025-01-01", "citations": "12", "downloads": "1,234" },
+        { "filename": "DEMO_B", "title": "地方协商机制的示例研究", "authors": ["示例作者乙"], "journal": "示例期刊乙", "date": "2024-02-01", "citations": "", "downloads": "56" },
+        { "filename": "DEMO_E", "title": "扩展主题观察示例", "authors": [], "journal": "示例期刊丙", "date": "2023-01-01", "citations": "0", "downloads": "" }
+      ] }]
+    },
+    "cssci": {
+      "expectedCount": 2,
+      "pages": [{ "page": "1/1", "rows": [
+        { "filename": "DEMO_A", "title": "乡村治理共同体的示例研究", "authors": ["示例作者甲"], "journal": "示例期刊甲", "date": "2025-01-01", "citations": "12", "downloads": "1,234" },
+        { "filename": "DEMO_B", "title": "地方协商机制的示例研究", "authors": ["示例作者乙"], "journal": "示例期刊乙", "date": "2024-02-01", "citations": "", "downloads": "56" }
+      ] }]
+    },
+    "pku": {
+      "expectedCount": 3,
+      "pages": [{ "page": "1/2", "rows": [
+        { "filename": "DEMO_A", "title": "乡村治理共同体的示例研究", "authors": ["示例作者甲"], "journal": "示例期刊甲", "date": "2025-01-01", "citations": "12", "downloads": "1,234" },
+        { "filename": "DEMO_C", "title": "《示例期刊甲》年度总目", "authors": [], "journal": "示例期刊甲", "date": "2018-12-01", "citations": "", "downloads": "20" }
+      ] }]
+    },
+    "pku_to2020": {
+      "expectedCount": 2,
+      "criteria": { "yearTo": 2020 },
+      "pages": [{ "page": "1/1", "rows": [
+        { "filename": "DEMO_C", "title": "《示例期刊甲》年度总目", "authors": [], "journal": "示例期刊甲", "date": "2018-12-01", "citations": "", "downloads": "20" },
+        { "filename": "DEMO_D", "title": "乡村治理共同体新著书评示例", "authors": ["示例作者丁"], "journal": "示例期刊甲", "date": "2019-04-01", "citations": "0", "downloads": "10" }
+      ] }]
+    }
+  }
+}
